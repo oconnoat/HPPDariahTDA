@@ -21,21 +21,42 @@ div.fallback-message {
     display: none;
 }
 
-
+b {
+    font-weight: bold;
+}
 div.hint {
     display: none;
 }
 /* Tag Markup */
+body{
+    font-family: sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.25em;
+}
+
 div.step{
     min-width: 900px;
     min-height: 700px;
     font-size: 48px;
     border: 1px solid red;
 }
-
+.small {
+    font-size: 66%;
+}
 /* Impress-related markup */
 .impress-enabled .step.active {
-    background-color: #fff;:
+    border: none;
 }
 
 /* make the non-active steps transparent */
@@ -69,13 +90,24 @@ div.step{
 }
 
 /* specific divs */
-div#title h1{
+div#Purpose {
     text-align: center;
-    margin: 10px;
-    font-size: 256px;
-    font-family: 'Tangerine', sans-serif;
+}
+div#Purpose h3{
+    display: block;
+    margin: 0.5em; 
 }
 
+div#WWWWH div.Ws{
+    background-color: #c0e0e0;
+    margin-top: 0.25em;
+    text-align: center;
+    border: 1px dashed;
+}
+div#WWWWH div.Ws span.not{
+   opacity: 0.66; 
+   font-size: 0.66em;
+}
 div#overview {
     display: none;
 }
