@@ -52,8 +52,9 @@
             <!-- each slide must be a div with class step,  must have some co-ordinates -->
             <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
                 <h1>DARIAH-TDA</h1>
+                <a href="http://dariah-tda.github.io/"><img src="img/logo.png" /></a>
                 <p><i class="fa fa-twitter fa-large"></i>@<a href="https://www.twitter.com/uberalex">uberalex</a>
-                <i class="fa fa-envelope fa-large"></i>Alexander.OConnor@dcu.ie</a></p>
+                <br /><i class="fa fa-envelope fa-large"></i>Alexander.OConnor@dcu.ie</a></p>
                 <div class="notes">
                     <!--speaker notes-->
                     <p>I will briefly introduce some of the activities and experiences of the DARIAH TDA Working Group.</p>
@@ -71,9 +72,9 @@
                 </div>
             </div>
             <div id="WWWWH" class="step" data-x="1200" data-y="1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-                <div id="Who" class="Ws"><p><b>Who</b> is <span class="not">(and is not)</span> using Digital Methods?</div>
-                <div id="What" class="Ws"><p><b>What</b> is <span class="not">(and is not)</span> a good use of Digital Methods?</div>
-                <div id="Where" class="Ws"><p><b>Where</b> are Digital Methods used? <span class="not">(and where are they not?)</span></div>
+                <div id="Who" class="Ws"><p><b>Who</b> is <span class="not">(and is not)</span><br /> using Digital Methods?</div>
+                <div id="What" class="Ws"><p><b>What</b> is <span class="not">(and is not)</span><br /> a good use of Digital Methods?</div>
+                <div id="Where" class="Ws"><p><b>Where</b> are Digital Methods used?<br /><span class="not">(and where are they not?)</span></div>
                 <div id="When" class="Ws"><p><b>Why</b> are <span class="not">(or aren't)</a> Digital Methods being used?</div>
                 <div id="How" class="Ws"><p><b>How</b> can Digital Methods be applied? <span class="not">(and how do they fail?)</span></div>
                 <div class="notes">
@@ -96,6 +97,28 @@
             </div>
 
             <div id="CendariArchive" class="step" data-x="2400" data-y="2400" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+                <section>
+                    <h3>Recommended Data Standards</h3>
+                    <ol>
+                        <li>DC Dublin Core</li>
+                        <li>ISAD International Standard</li>
+                        <li>MARC Machine Readable Cataloguing</li>
+                        <li>ESE Europeana Semantic Element</li>
+                        <li>EDM Europeana Data Model</li>
+                        <li>MODS Metadata Object Description Schema</li>
+                        <li>EAD Encoded Archival Description</li>
+                        <li>TEI Text Encoding Initiative</li>
+                        <li>METS MetaData Encoding and Transmission Standard</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Recommended Data Provision Methods</h3>
+                    <ol>
+                        <li>Harvest via OAI-PMH</li>
+                        <li>Delivery via FTP</li>
+                        <li>Delivery via API </li>
+                    </ol>
+                </section>
                 <a href="http://www.cendari.eu/sites/default/files/WhiteBook-Web.pdf">Cendari White Book of Archives</a>
                 <a href="http://www.cendari.eu/">Cendari Archive Directory</a>
                 <div class="notes">
@@ -119,7 +142,13 @@
                 </div>
             </div>
             <div id="Workshop" class="step" data-x="0" data-y="1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-                Workshop
+                <img src="img/wshop1.jpg" />
+                <img src="img/wshop2.jpg" />
+                <img src="img/wshop3.jpg" />
+                <img src="img/wshop4.jpg" />
+                <img src="img/wshop5.jpg" />
+                <img src="img/wshop6.jpg" />
+                <div class="over"><h3>Topic Models and Corpus Analysis</h3></div>
                 <div class="notes">We held our first expert workshop last December in Dublin. The topic was on Evaluating Corpus approaches.</div>
             </div>
             <div id="Conclusion" class="step" data-x="0" data-y="2400" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
@@ -172,7 +201,7 @@ if ("ontouchstart" in document.documentElement) {
 
         <!-- Initialisation -->
         <script>impress().init();</script>
-        <script>var time = 1000 * 60 * 15;
+        <script>var time = 1000 * 60 * 12;
 var clock = timer(time, update);
         </script>
     </body>

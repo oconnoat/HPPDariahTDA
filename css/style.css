@@ -29,11 +29,17 @@ div.hint {
 }
 /* Tag Markup */
 body{
-    font-family: sans-serif;
-}
-
-h1,h2,h3 {
     font-family: 'Quicksand', sans-serif;
+}
+ol {
+    margin-top: 0.2em;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+h1,h2,h3 {
+    color:rgb(50,62,99);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 h1 {
     font-size: 3em;
@@ -75,38 +81,114 @@ div.step{
 
 }
 .impress-on-title div.hint{
-   display: block;
-   font-size: 14px;
-   font-style: italic;
-   text-align: center;
-   width: 250px;
-   position: absolute;
-   left: 50%;
-   margin-left: -125px;
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
 }
+.impress-on-CendariArchive {
+    background-image: url('../img/archive.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.impress-on-Purpose{
+    background-image: url('../img/iss.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.impress-on-CendariNTE {
+    background-image: url('../img/nte.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.impress-on-WWWWH{
+    background-image: url('../img/tools.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.impress-on-Cendari{
+    background-image: url('../img/cendari.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.impress-on-Cendari div#CendariNTE{
+    background: none;
+}
+.impress-on-Cendari div#Cendari{
+    background: none;
+}
+
 .impress-on-overview div:hover{
     opacity: 1;
     background-color: #fff;
 }
 
 /* specific divs */
+div#title{
+    text-align: center;
+}
 div#Purpose {
     text-align: center;
+    text-shadow:
+    3px 3px 0 #fff,
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 div#Purpose h3{
     display: block;
     margin: 0.5em; 
 }
-
 div#WWWWH div.Ws{
-    background-color: #c0e0e0;
+    background-color: rgb(220, 220, 220);
     margin-top: 0.25em;
     text-align: center;
     border: 1px dashed;
 }
 div#WWWWH div.Ws span.not{
-   opacity: 0.66; 
-   font-size: 0.66em;
+    opacity: 0.66; 
+    font-size: 0.66em;
+}
+div#Cendari{
+    background-image: url('../img/cendari.png');
+}
+div#CendariArchive {
+    font-size: 24px;
+}
+div#CendariArchive section{
+    background-color: white;
+    border: 1px solid black;
+    margin: 0.25em;
+}
+div#CendariArchive li{
+    margin: 0.2em;
+}
+div#CendariArchive a{
+    font-size: 16px;
+}
+div#CendariNTE {
+    background-image: url('../img/nte.png');
+}
+div#Workshop img{
+    display: inline-block;
+    width:31% ;
+}
+div#Workshop div.over{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 33%; 
+    background: rgba(255,255,255, 0.5);
 }
 div#overview {
     display: none;
