@@ -193,11 +193,7 @@ div#Workshop div.over{
     background: rgba(255,255,255, 0.5);
 }
 div#Conclusion {
-    text-align: justify;
-}
-div#Conclusion h1{
-    display: inline-block;
-    width: 100%;
+    text-align: right;
 }
 div#overview {
     display: none;
