@@ -30,7 +30,7 @@ div.hint {
 /* Tag Markup */
 body{
     font-family: 'Quicksand', sans-serif;
-    background-image: url('../img/concrete.jpg');
+    background-image: url('../img/concrete.png');
     background-repeat: repeat;
 }
 ol {
@@ -180,6 +180,12 @@ div#CendariArchive a{
 }
 div#CendariNTE {
     background-image: url('../img/nte.png');
+}
+div#CendariNERD p#git{
+    position: absolute;
+    width: 25%;
+    right: 0;
+    top: 0;
 }
 div#Workshop img{
     display: inline-block;
