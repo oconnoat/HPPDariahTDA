@@ -30,6 +30,8 @@ div.hint {
 /* Tag Markup */
 body{
     font-family: 'Quicksand', sans-serif;
+    background-image: url('../img/concrete.jpg');
+    background-repeat: repeat;
 }
 ol {
     margin-top: 0.2em;
@@ -120,7 +122,7 @@ div.step{
 
 }
 
-.impress-on-Cendari div#CendariNTE{
+.impress-on-CendariNTE div#CendariNTE{
     background: none;
 }
 .impress-on-Cendari div#Cendari{
@@ -189,6 +191,13 @@ div#Workshop div.over{
     width: 100%;
     top: 33%; 
     background: rgba(255,255,255, 0.5);
+}
+div#Conclusion {
+    text-align: justify;
+}
+div#Conclusion h1{
+    display: inline-block;
+    width: 100%;
 }
 div#overview {
     display: none;
